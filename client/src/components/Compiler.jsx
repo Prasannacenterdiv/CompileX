@@ -35,14 +35,12 @@ const Compiler = () => {
       className="h-screen w-full flex flex-col md:flex-row gap-4 p-4
       bg-linear-to-br from-black via-gray-900 to-black text-white"
     >
-      {/* LEFT: Editor */}
       <div
         className="relative md:w-1/2 h-1/2 md:h-full
         bg-black/40 backdrop-blur-2xl
         border border-white/10 rounded-2xl
         shadow-2xl shadow-black/60 overflow-hidden"
       >
-        {/* Top Bar */}
         <div
           className="absolute top-0 left-0 right-0 z-10
           flex items-center justify-between px-4 py-2
@@ -76,14 +74,12 @@ const Compiler = () => {
         />
       </div>
 
-      {/* RIGHT: Output */}
       <div
         className="md:w-1/2 h-1/2 md:h-full flex flex-col
         bg-black/40 backdrop-blur-2xl
         border border-white/10 rounded-2xl
         shadow-2xl shadow-black/60 overflow-hidden"
       >
-        {/* Controls */}
         <div
           className="p-3 bg-black/50 backdrop-blur-xl
           border-b border-white/10"
@@ -109,7 +105,6 @@ const Compiler = () => {
           </select>
         </div>
 
-        {/* Output Panel */}
         <div className="flex-1 p-4 overflow-auto font-mono text-sm text-gray-300 whitespace-pre-wrap">
           {output}
         </div>
