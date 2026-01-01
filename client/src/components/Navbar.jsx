@@ -16,14 +16,12 @@ const Navbar = () => {
         text-gray-200
       "
     >
-      {/* Brand */}
       <div className="flex items-center gap-2 cursor-pointer select-none">
         <span className="text-lg font-semibold tracking-wide text-gray-100">
           Compile-X
         </span>
       </div>
 
-      {/* Author */}
       <div className="flex items-center gap-3 text-sm text-gray-400">
         <span className="opacity-70">Built by</span>
 
