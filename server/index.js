@@ -3,7 +3,7 @@ const app=express();
 const cors=require('cors');
 const codeRouter=require('./Routes/codeRouter');
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin:'https://compilex-t0xk.onrender.com',
     credentials:true
 }));
 app.use(express.json());
